@@ -1,0 +1,103 @@
+/*-------------------
+       Fonts
+--------------------*/
+
+$primaryFont          : 'KyivType Sans';
+$secondaryFont        : 'Montserrat';
+$fontVarient3             : 'Inter';
+
+
+$black             : black;
+$black2            : rgba(0, 0, 0, 0.32);
+$bold              : bold;
+$normal            : normal;
+
+/*-------------------
+      Base Sizes 
+--------------------*/
+
+/* This is the single variable that controls them all */
+$emSize   : 14px;
+
+/* The size of page text  */
+$largeSize   : 16px; //This Variable only need config.less
+$fontSize    : 14px;
+$smallSize   : 12px; //This Variable only need config.less
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+$primaryColor        : #FEE9E3;
+
+
+/*-------------------
+     Breakpoints
+--------------------*/
+$mobileBreakpoint             : 480px;
+$tabletBreakpoint             : 768px;
+$bigTabletBreakpoint          : 992px;
+$mediumMonitorBreakpoint      : 1200px;
+
+$media_queries : (
+    'mobileScreen'       : #{"only screen and (max-width: #{$mobileBreakpoint})"},
+    'tabletScreen'       : #{"screen and (min-width: #{$mobileBreakpoint + 1}) and (max-width: #{$tabletBreakpoint}) "},
+    'bigTabletScreen'    : #{"screen and (min-width: #{$tabletBreakpoint + 1}) and (max-width: #{$bigTabletBreakpoint}) "},
+    'mediumScreen'       : #{"screen and (min-width: #{$bigTabletBreakpoint + 1}) and (max-width: #{$mediumMonitorBreakpoint}) "},
+    'computer'           : #{"only screen and (min-width: #{$mediumMonitorBreakpoint + 1})"}
+);
+
+/*-------------------
+  Texture BG Images
+--------------------*/
+$darkBgTextureImg: url("../images/darkTextureBg.webp");
+$lightBgTextureImg: url("../images/lightTextureBg.webp");
+
+/*-------------------
+     Event Colors
+--------------------*/
+$eventYellowColor    : #DAAC3F;
+$eventGreenColor1    : #163832;
+$eventGreenColor2    : #0A201A;
+
+
+/*-------------------
+     New home screen Colors
+--------------------*/
+$v2PrimaryVariant1: #6D142D;
+$v2PrimaryVariant2: #340708;
+$v2PrimaryVariant3: #C26D84;
+$v2PrimaryVariant4: #250405;
+
+
+$grayColor1: #a7a7a7;
+$grayColor2: #585858;
+$grayColor3: #747272;
+
+$textColor1               :  #3C3A3A;
+$white                    :  white;
+$cflPrimaryColor          :  #BD99A3;
+$cflLightPrimaryColor     :  #DCC9CE;
+$cflLightSeconadaryColor  :  #DCC9CE70;
+$sflPrimaryColor          :  #9DB577;
+$lflPrimaryColor          :  #7C9A82;
+$hflPrimaryColor          :  rgba(251, 231, 90, 0.6);
+$fontColor1               :  #3C3A3A;
+$cursiveFontColor         :  #a8a6a6;
+$blogBackgroundColor      :  rgba(255, 216, 203, 0.53);
+$contactUsFormColor       :  #FEEFDE;
+$footerTopLayerColor      :  #755A5E;
+$crownSkillGradientColor: linear-gradient(-90deg, rgba(255, 255, 255, 0.29) 0.05%, rgba(223, 121, 148, 0.00) 65.85%);
+$cflLinearGradientColor: linear-gradient(180deg, #BD99A3 0%, rgba(189, 153, 163, 0) 100%);
+$lflLinearGradientColor:  linear-gradient(180deg, rgba(124, 154, 130, 0.6) 0%, rgba(124, 154, 130, 0) 100%);
+$hflLinearGradientColor: linear-gradient(180deg, rgba(251, 231, 90, 0.4) 0%, rgba(240, 240, 240, 0) 100%);
+$sflLinearGradientColor: linear-gradient(180deg, #F5F5DD 0%, rgba(245, 245, 221, 0) 100%);
+$skillLinearGradientColor: linear-gradient(180deg, rgba(250, 237, 39, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+$aflLinearGradientColor: linear-gradient(180deg, rgba(100, 76, 28, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+$tflLinearGradientColor: linear-gradient(180deg, rgba(132, 169, 161, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+$nflLinearGradientColor: linear-gradient(180deg, rgba(234, 230, 205, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+$aeflLinearGradientColor: linear-gradient(180deg, rgba(162, 73, 77, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+$dtLinearGradientColor: linear-gradient(180deg, rgba(255, 169, 10, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+$psapLinearGradientColor: linear-gradient(180deg, rgba(176, 136, 100, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+$caflLinearGradientColor: linear-gradient(180deg, rgba(205, 204, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+$fneLinearGradientColor: linear-gradient(180deg, rgba(34, 211, 167, 0.6) 0%, rgba(255, 255, 255, 0) 100%);

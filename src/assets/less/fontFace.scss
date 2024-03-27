@@ -1,0 +1,30 @@
+
+/* Primary Font */
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("../fonts/Montserrat.ttf") format("truetype");
+  font-weight: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KyivType Sans";
+  src: local("KyivType_Sans"),
+    url("../fonts/KyivType_Sans.ttf") format("truetype");
+  font-weight: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url("../fonts/Inter.ttf") format("truetype");
+  font-weight: normal;
+  font-weight: 400;
+  font-display: swap;
+}

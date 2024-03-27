@@ -1,0 +1,30 @@
+@import '/src/assets/less/config.scss';
+
+.meterialContainer{
+    display: flex;
+    justify-content: space-around;
+    .selectedMaterial{
+        width: 31%;
+        img{
+            width: 31%;
+            height: 370px;
+            border-radius: 20px;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+    .selectedMaterialInfo{
+        
+        h1{
+            font-size: 3em !important;
+            text-align: center;
+        }
+        ul{
+            padding: 0 7em;
+        }
+        li{
+            font-family: $secondaryFont;
+            font-size: 1.3em !important;
+        }
+    }
+}
