@@ -1,0 +1,21 @@
+@import '/src/assets/less/config.scss';
+
+.headerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // background: url('../../../assets/Images/headerBg.png') no-repeat 50%;
+    ol{
+        display: flex;
+        list-style-type: none;
+        gap: 2em;
+        li{
+            font-family: $secondaryFont !important;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    }
+    svg{
+        width: 13%;
+    }
+}
