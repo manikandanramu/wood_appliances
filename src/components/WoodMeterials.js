@@ -1,12 +1,6 @@
 import React, {useState} from "react";
 // import { Button } from 'semantic-ui-react';
 import style from "./less/woodMeterials.module.scss";
-import wood1 from "../assets/Images/woodMetrials/tiger_maple.webp"
-import wood2 from "../assets/Images/woodMetrials/cherry.webp"
-import wood3 from "../assets/Images/woodMetrials/wormy_brown.webp"
-import wood4 from "../assets/Images/woodMetrials/Aspen.webp"
-import wood5 from "../assets/Images/woodMetrials/cader.webp"
-import wood6 from "../assets/Images/woodMetrials/pine.webp"
 import "./less/woodMeterial.scss"
 
 const WoodMeterials = ({scrollClass}) => {
@@ -14,37 +8,37 @@ const WoodMeterials = ({scrollClass}) => {
       {
         woodName: "Tiger Maple",
         id: 101,
-        src: wood1,
+        src: "https://woodappliances.s3.ap-south-1.amazonaws.com/woodMetrials/tiger_maple.webp",
         descList: ["Durability", "Beautiful texture", "Water resistance", "Expensive"],
       },
       {
         woodName: "Cherry",
         id: 102,
-        src: wood2,
+        src: "https://woodappliances.s3.ap-south-1.amazonaws.com/woodMetrials/cherry.webp",
         descList: ["Durability", "Hard to handle"],
       },
       {
         woodName: "Wormy Brown",
         id: 103,
-        src: wood3,
+        src: "https://woodappliances.s3.ap-south-1.amazonaws.com/woodMetrials/wormy_brown.webp",
         descList: ["Durability", "Hard to handle"],
       },
       {
         woodName: "Aspen",
         id: 104,
-        src: wood4,
+        src: "https://woodappliances.s3.ap-south-1.amazonaws.com/woodMetrials/Aspen.webp",
         descList: ["Durability", "Hard to handle"],
       },
       {
         woodName: "Cader",
         id: 105,
-        src: wood5,
+        src: "https://woodappliances.s3.ap-south-1.amazonaws.com/woodMetrials/cader.webp",
         descList: ["Durability", "Hard to handle"],
       },
       {
         woodName: "Pine",
         id: 106,
-        src: wood6,
+        src: "https://woodappliances.s3.ap-south-1.amazonaws.com/woodMetrials/pine.webp",
         descList: ["Durability", "Hard to handle"],
       },
   ]
